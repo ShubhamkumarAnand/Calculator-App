@@ -14,6 +14,9 @@
         android:background="#efefef"
         android:textSize="32sp"
         android:textColor="@color/purple_700"
+        android:padding="10dp"
+        android:text="0"
+        android:gravity="right |center_vertical|bottom"
         android:maxLength="12"/>
 
     <!-- Row 1-->
@@ -129,7 +132,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="8"
+            android:text="2"
             android:onClick="onDigit"
             android:layout_margin="2sp"/>
 
@@ -210,6 +213,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="="
+            android:onClick="onEqual"
             android:layout_margin="2sp"/>
 
     </LinearLayout>
