@@ -7,6 +7,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/tvInput"
         android:layout_width="match_parent"
@@ -16,7 +17,7 @@
         android:textColor="@color/purple_700"
         android:padding="10dp"
         android:text="0"
-        android:gravity="right |center_vertical|bottom"
+        android:gravity="right|center_vertical|bottom"
         android:maxLength="12"/>
 
     <!-- Row 1-->
